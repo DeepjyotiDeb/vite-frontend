@@ -1,0 +1,77 @@
+// @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  color: inherit;
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+}
+
+html {
+  --red: #ff0000;
+  --primary: #6a32b9;
+  --blue: #17597e;
+  --light-blue: #2686bd;
+  --light-grey: #dbdbdb;
+  // font-size: 62.5%;
+  color: inherit;
+  font-family: 'Roboto', sans-serif !important;
+}
+
+body {
+  margin: 0;
+  color: inherit;
+  border: none;
+  outline: none;
+  touch-action: none;
+  padding: 0;
+  font-family: 'Roboto', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+  outline: none;
+
+  &:hover,
+  &:active,
+  &:focus {
+    outline: none;
+  }
+}
+
+a {
+  color: #3f51b5;
+  outline: none;
+  &:hover,
+  &:active,
+  &:focus {
+    outline: none;
+  }
+}
+
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus,
+select:-webkit-autofill:active,
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  // transition: background-color 5000s ease-in-out 0s;
+  box-shadow: 0 0 0 30px white inset !important;
+}

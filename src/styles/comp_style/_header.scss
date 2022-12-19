@@ -1,0 +1,24 @@
+.nav__option {
+  color: white;
+  font-size: 1em;
+  text-decoration: none;
+  &:hover {
+    outline: none;
+    text-decoration: none;
+  }
+}
+
+.nav__users {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  .nav__user {
+    color: white;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+}

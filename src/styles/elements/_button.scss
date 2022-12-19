@@ -1,0 +1,12 @@
+/* .submit__btn {
+    border: auto solid #1ECD97;
+    color: #1ECD97;
+    cursor: pointer;
+} */
+
+.btn {
+  --color: #171827;
+  --background: #f6f8ff;
+  --background-hover: #e1e3eb;
+  --shadow: #{rgba(#00093d, 0.12)};
+}
